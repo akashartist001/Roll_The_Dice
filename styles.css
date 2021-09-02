@@ -1,0 +1,88 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+.buttonDiv {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.spinButton {
+  font-size: 2rem;
+  color: #4ECCA3;
+  text-shadow: 5px 0 #232931;
+  background: #393E46;
+  padding: 15px 25px;
+  border: 3px solid #4ECCA3;
+  border-radius: 6px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  box-shadow: 0 9px #707070;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+
+.spinButton:hover {
+  border-radius: 50px;
+  border-color: #4ECCA3;
+  transition: all 0.3s ease 0s;
+}
+
+.spinButton:active {
+  background-color: #484848;
+  box-shadow: 0 5px #707070;
+  transform: translateY(4px);
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 5rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+/* dice images */
+img {
+  width: 60%;
+}
+
+.rotate {
+  animation: rotation 0.2s linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* footer */
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
