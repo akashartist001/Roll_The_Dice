@@ -79,6 +79,13 @@ img {
   }
 }
 
+@media screen and (maxwidth : 560px) {
+
+  img {
+    width: 100%;
+  }
+}
+
 /* footer */
 footer {
   margin-top: 5%;
