@@ -62,29 +62,22 @@ p {
 
 /* dice images */
 img {
-  width: 60%;
+  width: 70%;
 }
 
-.rotate {
-  animation: rotation 0.2s linear;
+.rotate{
+  animation: rotation1 0.2s linear;
 }
 
-@keyframes rotation {
+ @keyframes rotation1 {
   from {
     transform: rotate(0deg);
   }
-
   to {
     transform: rotate(360deg);
   }
 }
 
-@media screen and (maxwidth : 560px) {
-
-  img {
-    width: 100%;
-  }
-}
 
 /* footer */
 footer {
